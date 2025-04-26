@@ -7,7 +7,8 @@ USER root
 RUN npm install -g firecrawl-mcp && \
     npm install -g @playwright/mcp && \
     npm install -g @modelcontextprotocol/server-brave-search && \
-    npm install -g @modelcontextprotocol/server-puppeteer
+    npm install -g @modelcontextprotocol/server-puppeteer && \
+    npm install -g hyperbrowser-mcp
 
 # Revert to the node user for security purposes
 USER node
